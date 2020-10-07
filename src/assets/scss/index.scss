@@ -1,0 +1,43 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  hr {
+    margin: 0 0 20px;
+  }
+
+  .jb-container {
+    background-color: rgb(16, 16, 92);
+    .button-container {
+      border-radius: 50px;
+      height: 40px;
+    }
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 10, 67);
+    text-transform: uppercase;
+    border-radius: 50px;
+    height: 30px;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    &:hover {
+      background-color: 007bff !important;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+    li {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
